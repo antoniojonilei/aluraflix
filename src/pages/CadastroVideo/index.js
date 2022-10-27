@@ -1,10 +1,11 @@
 import React from "react";
+import PageDefault from "../../components/PageDefault";
 
 const CadastroVideo = () => {
-    return(
-        <div>
-            Pagina de cadastro de videos
-        </div>
+    return(        
+        <PageDefault>
+        pagina cadastro video
+        </PageDefault>           
     )
 }
 

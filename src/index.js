@@ -5,7 +5,9 @@ import { BrowserRouter as Router, Routes, Route } from 'react-router-dom'
 
 import Home from './pages/Home';
 import CadastroVideo from './pages/CadastroVideo';
-import Pagina404 from './pages/Pagina404';
+// import Pagina404 from './pages/Pagina404';
+
+const Pagina404 = () => <h1>Pagina404</h1>
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
@@ -13,7 +15,7 @@ root.render(
     <Routes>     
       <Route path='/' element={<Home />} exact /> 
       <Route path='/cadastro/video' element={<CadastroVideo />}/>
-      <Route element={<Pagina404 />}/>
+      <Route element={Pagina404}/>
     </Routes>
   </Router>
 );
