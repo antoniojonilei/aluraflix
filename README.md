@@ -19,4 +19,4 @@
   A partit da atualização do pacote do modulo react-router-dom. A partir da versão 6, não se tem mais suporte para <strong>Switch</strong>. Utiliza-se agora o <strong>Routes</strong>
 </p>
 
-<img src="../aluraflix/src/assets/img/react-router-dom.jpg" alt="react router dom exemplo">
+<img src="./src/assets/img/react-router-dom.jpg" alt="react router dom exemplo">
