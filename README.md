@@ -14,6 +14,7 @@
 [ ] Deploy no Vercel <br>
 [ ] npm install react-router-dom <br>
 [ ] Utilização de rotas (router Dom - v6) <br>
+[ ] Estrutura de Páginas <br>
 
 <p>
   A partit da atualização do pacote do modulo react-router-dom. A partir da versão 6, não se tem mais suporte para <strong>Switch</strong>. Utiliza-se agora o <strong>Routes</strong>
